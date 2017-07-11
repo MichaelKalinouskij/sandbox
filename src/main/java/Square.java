@@ -3,5 +3,11 @@
  */
 public class Square {
     public double l;// длина стороны квадрата
+    public Square (double l) {
+        this.l=1;
+    }
+    public double area () {
+        return this.l*this.l;
+    }
 
 }
